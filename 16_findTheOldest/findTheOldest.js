@@ -16,7 +16,6 @@ const findTheOldest = function(people) {
     return ages.reduce((oldest, current) => {
         return oldest.age > current.age ? oldest : current;
     });
-    
 };
 
 // Do not edit below this line
