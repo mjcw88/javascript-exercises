@@ -1,7 +1,7 @@
 const palindromes = function (string) {
     const cleanedString = string.split("").filter(char => {
             return /[a-zA-Z0-9]/.test(char)
-        }).reverse().join("").toLowerCase();
+        }).join("").toLowerCase();
 
     const reversedString = cleanedString.split("").reverse().join("");
 
